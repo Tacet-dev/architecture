@@ -1,20 +1,14 @@
----
-name: Architecture decision record
-about: Propose a technical or organisational decision for Tacet
-labels: adr, architecture, technical
----
-
-# Architecture decision record
+# Decision
 
 <!--
 Use this template to propose technical and organisational decisions for Tacet.
-For community-facing changes and feature proposals, use the request for comments
-template instead.
+Decisions are also known as architecture decision records (ADRs).
+For community-facing changes, use the comment template instead.
 
 After creating this issue, draft your full proposal using the template at
-templates/adr.md and submit a merge request.
+templates/decision.md and submit a merge request.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/adrs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -72,7 +66,7 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 
 ## Next steps
 
-- [ ] Draft full proposal in `adrs/XXXX-title.md`
+- [ ] Draft full proposal in `decisions/XXXX-title.md`
 - [ ] Submit merge request for review
 - [ ] Address feedback from technical leads
 - [ ] Update status after decision
@@ -85,5 +79,7 @@ This decision follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
 Technical leads carry responsibility for shepherding proposals through the
 process. See the
-[handbook](https://handbook.omnifi.foundation/engineering/architecture/adrs/) for
+[handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/) for
 process details.
+
+/label ~"decision" ~"architecture"

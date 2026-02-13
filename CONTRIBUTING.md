@@ -38,7 +38,7 @@ decisions — choices about how Tacet is built and maintained.
 4. **Submit a merge request** with your proposal at `adrs/XXXX-title-slug.md`.
 5. **Address review feedback** from technical leads and the community.
 6. **Merge when accepted** — ADRs use lazy consensus (see the
-   [handbook](https://handbook.omnifi.foundation/engineering/architecture/adrs/) for
+   [handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/) for
    details).
 
 ## Submitting a request for comments
@@ -70,8 +70,8 @@ changes that affect how people use Tacet.
 Use lowercase with hyphens. Combine the four-digit number with a descriptive
 slug:
 
-- Architecture decision records: `adrs/0001-sandbox-isolation-strategy.md`
-- Requests for comments: `rfcs/0001-primitives-wire-protocol.md`
+- Architecture decision records: `decisions/0001-sandbox-isolation-strategy.md`
+- Requests for comments: `comments/0001-primitives-wire-protocol.md`
 
 See the [numbering scheme](https://handbook.omnifi.foundation/engineering/architecture/numbering/)
 in the handbook for full details.

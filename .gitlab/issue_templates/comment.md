@@ -1,20 +1,15 @@
----
-name: Request for comments
-about: Propose a community-facing change or feature for Tacet
-labels: rfc, architecture, needs discussion
----
-
-# Request for comments
+# Comment
 
 <!--
 Use this template to propose community-facing changes and features for Tacet.
-For internal technical and organisational decisions, use the architecture
-decision record template instead.
+Comments are also known as requests for comments (RFCs).
+For internal technical and organisational decisions, use the decision template
+instead.
 
 After creating this issue, draft your full proposal using the template at
-templates/rfc.md and submit a merge request.
+templates/comment.md and submit a merge request.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/rfcs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -87,7 +82,7 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 
 ## Next steps
 
-- [ ] Draft full proposal in `rfcs/XXXX-title.md`
+- [ ] Draft full proposal in `comments/XXXX-title.md`
 - [ ] Submit merge request to begin discussion period
 - [ ] Engage with community feedback
 - [ ] Await decision after discussion closes
@@ -100,5 +95,7 @@ This proposal follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
 Technical leads carry responsibility for facilitating decisions after the
 community discussion period closes. See the
-[handbook](https://handbook.omnifi.foundation/engineering/architecture/rfcs/) for
+[handbook](https://handbook.omnifi.foundation/engineering/architecture/governance/) for
 process details.
+
+/label ~"comment" ~"architecture" ~"needs discussion"
